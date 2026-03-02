@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+        "src": "api/index.js",
+        "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "src/routes/denunciaRoutes.js",
+            "dest": "api/index.js"
+        }
+    ]
+}
